@@ -21,7 +21,7 @@ const Wrapper = styled.div`
 const Footer = () => {
   return (
     <Wrapper>
-      Contack Me
+      Contact Me
       <br />
       bnm0218@naver.com
     </Wrapper>

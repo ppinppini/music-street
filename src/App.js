@@ -35,9 +35,9 @@ const Content = styled.div`
   }
 `;
 const App = () => {
-  const [num, setNum] = useState(1);
+  const [category, setCategory] = useState("마이너에서 메이저로");
   const changePage = (e) => {
-    setNum(e);
+    setCategory(e);
   };
 
   return (
@@ -46,8 +46,8 @@ const App = () => {
       <Main>
         <Title>Music Street</Title>
         <Content>
-          <InfoBox num={num} />
-          <ButtonBox changePage={changePage} num={num} />
+          <InfoBox category={category} />
+          <ButtonBox changePage={changePage} category={category} />
         </Content>
       </Main>
       <Footer />
