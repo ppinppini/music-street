@@ -40,11 +40,15 @@ const App = () => {
     setCategory(e);
   };
 
+  const [trap, setTrap] = useState(0);
+  if (trap === 10)
+    return <img style={{ width: "100%" }} src="images/p0.jpeg" alt="yubin" />;
+
   return (
     <>
       <GlobalStyle />
       <Main>
-        <Title>Music Street</Title>
+        <Title onClick={() => setTrap(trap + 1)}>Music Street</Title>
         <Content>
           <InfoBox category={category} />
           <ButtonBox changePage={changePage} category={category} />
