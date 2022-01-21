@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/music-street/static/css/main.9e19584c.chunk.css",
+    "main.js": "/music-street/static/js/main.beb9e90e.chunk.js",
+    "main.js.map": "/music-street/static/js/main.beb9e90e.chunk.js.map",
+    "runtime~main.js": "/music-street/static/js/runtime~main.79f9448f.js",
+    "runtime~main.js.map": "/music-street/static/js/runtime~main.79f9448f.js.map",
+    "static/js/2.f34e0481.chunk.js": "/music-street/static/js/2.f34e0481.chunk.js",
+    "static/js/2.f34e0481.chunk.js.map": "/music-street/static/js/2.f34e0481.chunk.js.map",
+    "static/js/3.e4dc353f.chunk.js": "/music-street/static/js/3.e4dc353f.chunk.js",
+    "static/js/3.e4dc353f.chunk.js.map": "/music-street/static/js/3.e4dc353f.chunk.js.map",
+    "index.html": "/music-street/index.html",
+    "precache-manifest.4ebc9230d78de5f7dfacb4e354bf2bb5.js": "/music-street/precache-manifest.4ebc9230d78de5f7dfacb4e354bf2bb5.js",
+    "service-worker.js": "/music-street/service-worker.js",
+    "static/css/main.9e19584c.chunk.css.map": "/music-street/static/css/main.9e19584c.chunk.css.map"
+  }
+}
