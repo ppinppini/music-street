@@ -42,7 +42,12 @@ const App = () => {
 
   const [trap, setTrap] = useState(0);
   if (trap === 10)
-    return <img style={{ width: "100%" }} src="images/p0.jpeg" alt="yubin" />;
+    return (
+      <>
+        <h1 style={{ fontSize: "100px", textAlign: "center" }}>귀여운 나</h1>
+        <img style={{ width: "100%" }} src="images/p0.jpeg" alt="yubin" />
+      </>
+    );
 
   return (
     <>
