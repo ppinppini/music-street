@@ -1,7 +1,8 @@
-import React, { useCallback, useState } from "react";
+import React, { useState } from "react";
 import styled, { createGlobalStyle } from "styled-components";
-import ButtonBox from "./ButtonBox";
-import InfoBox from "./InfoBox";
+import ButtonBox from "./components/ButtonBox";
+import Footer from "./components/Footer";
+import InfoBox from "./components/InfoBox";
 const GlobalStyle = createGlobalStyle`
   * {
     box-sizing: border-box;
@@ -33,23 +34,6 @@ const Content = styled.div`
     flex-direction: column-reverse;
   }
 `;
-const Footer = styled.div`
-  font-size: 100px;
-  display: flex;
-  margin-top: 300px;
-  text-align: center;
-  background-color: #333;
-  color: ivory;
-  height: 100vh;
-  font-family: ACCchildrenheartOTF-Regular;
-  align-items: center;
-  justify-content: center;
-  @media (max-width: 768px) {
-    margin-top: 100px;
-    font-size: 40px;
-  }
-`;
-
 const App = () => {
   const [num, setNum] = useState(1);
   const changePage = (e) => {
@@ -66,11 +50,7 @@ const App = () => {
           <ButtonBox changePage={changePage} num={num} />
         </Content>
       </Main>
-      <Footer>
-        Contact Me
-        <br />
-        황유빈@naver.com
-      </Footer>
+      <Footer />
     </>
   );
 };
