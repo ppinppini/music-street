@@ -4,7 +4,6 @@ import styled from "styled-components";
 const Wrapper = styled.div`
   font-size: 100px;
   display: flex;
-  margin-top: 300px;
   text-align: center;
   background-color: #333;
   color: ivory;
@@ -13,7 +12,6 @@ const Wrapper = styled.div`
   align-items: center;
   justify-content: center;
   @media (max-width: 768px) {
-    margin-top: 100px;
     font-size: 40px;
   }
 `;

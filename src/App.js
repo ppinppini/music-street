@@ -35,7 +35,7 @@ const Content = styled.div`
   }
 `;
 const App = () => {
-  const [category, setCategory] = useState("마이너에서 메이저로");
+  const [category, setCategory] = useState("인디음악");
   const changePage = (e) => {
     setCategory(e);
   };

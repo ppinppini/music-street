@@ -8,7 +8,7 @@ import ToMajor from "./Info/ToMajor";
 const Info = styled.div`
   max-width: 1200px;
   width: 100%;
-  margin-left: 100px;
+  margin: 0 0 200px 5vw;
   font-size: 2vw;
   padding: 5vw 3vw;
   border-radius: 30px 0 30px 30px;

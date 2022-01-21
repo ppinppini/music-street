@@ -15,9 +15,7 @@ const TextBox = styled.ul`
   li {
     margin-top: 4vw;
   }
-  @media (max-width: 768px) {
-    padding-left: 20px;
-  }
+  padding-left: 20px;
 `;
 
 const IndieMusic = () => {
